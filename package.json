@@ -1,0 +1,9 @@
+{
+  "name":        "strap.js",
+  "version":     "0.0.1",
+  "description": "Super basic bootstrap for simple app creation with Node.js",
+  "dependencies": {
+    "ejs": "0.4.3",
+    "express": "2.5.2"
+  }
+}
