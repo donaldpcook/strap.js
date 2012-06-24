@@ -1,5 +1,3 @@
-require.paths.unshift(__dirname + '/lib');
-
 var express   = require('express');
 
 // create an express server
