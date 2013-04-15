@@ -1,10 +1,11 @@
-var express   = require('express');
-
 // create an express server
-var app = express.createServer(
+var express = require("express");
+
+var app = express(
   express.logger(),
   express.static(__dirname + '/public'),
   express.cookieParser(),
+
   // set this to a secret value to encrypt session cookies
   express.session({ secret: process.env.SESSION_SECRET || 's1llyc4t' })
 );
